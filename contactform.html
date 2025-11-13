@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form for assignment2</title>
+    <style>
+        table{
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            font-size: 20px;
+            background-color: rgb(228, 25, 75);
+        }
+        form{
+            background-color: blue;
+        
+        }
+        input{
+            border-radius: 10px;
+            height: 20px;
+            padding:5px;
+        }
+        h1{
+            text-align: center;
+            color: deeppink;
+            background-color: chartreuse;
+            height: 50px;
+                        cursor: pointer;
+                }
+                h1:hover{
+                    background-color: red;
+                    opacity: 0.8;
+                }
+.button_input{
+            width: 150px;
+            height: 60px;
+            border-radius: 15px;
+            background-color: rgb(188, 188, 235);
+            margin: 20px;
+        }
+          .button_input1{
+            width: 150px;
+            height: 60px;
+            border-radius: 15px;
+            background-color: orange;
+            margin: 20px;
+        }
+        .button_input:hover{
+            background-color: blue;
+            color: orangered;
+        }
+         .button_input1:hover{
+            background-color:darkgreen;
+            color: black;
+         }
+
+    </style>
+</head>
+<body>
+    <form action="success.html">
+        <h1 >Contact Form</h1>
+        <fieldset>
+             <legend >Login Page</legend>
+             <table border="1">
+           <tr>
+                <td>
+                   <label>Name</label></td>
+                   <td><input type="text" required name="username" value="" placeholder="Enter your name" autocomplete="off"><br>
+                </td></tr>
+            <tr>
+              <td><label>Email</label></td> 
+              <td><input type="email" name="email" value="" placeholder="Enter your email id" autocomplete="off"><br></td> 
+                
+
+            </tr>
+        <tr>
+            <td>
+                <label>Subject</label></td>
+                <td><input type="text" required name=subject value="" placeholder="Enter the subject name" autocomplete="off"></td>
+            <tr>
+                <td>
+                    <label>Message</label>
+                </td>
+                <td ><input style="width: 400px; height: 200px;"type="text" required name =message value="" placeholder="Type your message here"></td>
+            </tr>
+            </td>
+       <tr>
+                <td colspan="2">
+                    <input type="submit" class="button_input">
+                    <input type="Reset" class="button_input1">
+                </td>
+            </tr>
+        </table>
+
+        </fieldset>
+    </form>
+</body>
+</html>
