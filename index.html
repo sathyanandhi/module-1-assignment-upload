@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Building a Personal Portfolio with CSS3 </title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<style>
+  body{
+    background-color: darkgoldenrod;
+  }
+  /* .navbar-nav {
+    padding-top:5px;
+    margin-top: 5px;
+
+  } */
+  /* .navbar-brand{
+     padding-top:5px;
+    margin-left: 20px;
+  } */
+  .card-img-overlay
+  {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid yellow;
+    color:orangered;
+    /* font-size: 40px; */
+  }
+ /* .card-title{
+  font-size: 20px;
+ } */
+  
+   button
+   {
+    color: orange;
+    background-color:yellow;
+    border-radius: 10px;}
+
+  
+  button:hover
+  {
+    color:black;
+    background-color: darkgreen;
+   }
+
+    .container-fluid-about{
+      font-style: italic;
+      font-family: sofia;
+      background-color:greenyellow;
+        color:blue;
+
+  
+    }
+    .heading{
+      font-size: 30px;
+      color: blueviolet;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: aqua;
+    }
+    .types{
+      font-size: 20px;
+      background-color:red
+    }
+    h1{
+      font-size: 30px;
+      
+      
+    }
+  h2{
+    font-size: 20px;
+  } button{
+            background-color:green;
+            color: gold;
+           /* margin:10px 5px; */
+           padding: 10px 20px;
+           cursor: pointer;
+           border-radius: 20px;
+                   
+        }#about{
+            animation: about1 5s 2;
+           }
+           @keyframes about1
+           {
+             100%{transition: rotate(45deg);}
+        }
+        
+        button:hover{
+            background-color: blue;
+            color: black;
+        }
+        .contactform{
+          color: orangered;
+          background-color: black;
+
+        }
+        
+      
+       #footerimages{
+       
+        display: block;
+        padding: 20px;
+        margin: 40px;
+      
+       }
+       .styling{
+        position: relative;
+       }
+</style>
+
+<body>
+     
+      <section>
+        <nav class="navbar navbar-light  bg-danger">
+          <h1 class="container-fluid" style="color:darkred;font-size: 40px;text-align: center;background-color: green;color:deeppink;">My Personal Portfolio<h1></h1>
+          <div class="container fixed-top">
+            <a class="navbar-brand " href="#">
+             
+              <nav class="navbar   navbar-expand-lg navbar-light bg-primary">
+                <div class="container">
+
+                  <button class="navbar-toggler fixed-top" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav "> <img src="https://dynamic.design.com/preview/logodraft/9b3a0632-35a5-4d10-a9ca-b13141aecfda/image/large.png"
+                alt="" width="50" height="50" class="d-inline-block align-text-top">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#about">About</a>
+                      <a class="nav-link" href="#project">Project</a>
+                       <a class="nav-link" href="#skills">Skills</a>
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </a>
+          </div>
+        </nav>
+      </section>
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+           
+<div class="card text-bg-primary ">
+  <img src="https://plus.unsplash.com/premium_photo-1661775756810-82dbd209fc95?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1954" class="card-img" alt="...">
+  <div class="card-img-overlay">     
+  
+
+    <div class="card-title"><h1 style="font-size: 35px;color: black;">I am Sathyanandhi</h1></div>
+    <div class="card-text"><h2 style="color:red;">I am a Full Stack Developer</h2></div>
+   
+  </div>
+</div>
+<div>
+     
+  <h1 style="text-decoration: underline;color: brown;" id="about">About Me</h1>
+  <div class="container-fluid-about text center">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row">
+    <div class="col-md-12 col-12 col-lg-5"><img src="sathya.jpg" width="400px" height="400px"></div>
+    <div class=" col-md-12 col-lg-7 col-12 col-sm-12"> <p style="font-size: 20px;"><br>I was born on Feb 4,1993 in pollachi, Coimbatore district,which is located in the Tamilnadu,My Father name is Balasundaram Kandiyagounder and Mother name is Maheswari Balasundaram.I have two Elder sisters and I am the last one for my parents.My Father is a Farmer and My Mother is a Homemaker.With help of my Parents constant effort,hardwork,dedication,Sacrifices all the three daughters were completed Post Graduation.I had worked as Assisstant Professor as well as Aptitude Trainer in Sasurie College of Engineering.Now I am working as a Full Stack Developer.<br><br><mark style="background-color:black;color:red;">Early life and education :</mark><br><br>I had completed Master of Engineering in the department of Power Electronics and Drives at Sri Shakthi Institute of Engineering and Technology(Anna University) in Coimbatore during the period of 2014 to 1016 Batch with Percentage of 80.12.
+And she completed her Bacholor of Engineering in the deparment of Electrical and Electronics Engineering at Sri Krishnna College of Technology,(Anna University) in Coimbatore during the Period of 2010 -2014 Batch with the Percentage of 77.30.She completed her school in Mariammal Girls Higher Secondary School,pollachi with the Percentage of 92.33.She completed her SSLC in Goverment Girls High School,Negamam with 89.12 Percentage.</P>
+      
+  </div>
+  </div></div>
+      
+    <section class="heading">
+        <h1 style="text-decoration: underline;color:red" id="project">Project</h1>
+        <h2 style="color: brown;">Name of the Projects</h2>
+        <ul>
+            <li>Types of Styling in CSS
+                <!--  Styling used in the css ,which is inline styling,Internal styling,External styling-->
+
+            </li>
+            <li>Chessbord using css grid</li>
+            <li>Student mark list using Table </li>
+        </ul>
+    </section>
+    <div class="styling">
+    <div style="font-size: 20px;">
+        <h1 style="color: blue">i)Types of styling in css</h1>
+        <p>CSS is used to style and layout web pages, controlling the appearance of HTML elements. 
+          It allows developers to create visually appealing designs and ensure a consistent look across a website.
+
+
+<div class="card text bg-info">
+  <div class="card-header">
+   Types of CSS:
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">1.Inline CSS
+ <h5>2.Internal or Embedded CSS:</h5>
+ <h5>3.External CSS</h5>
+    <p class="card-text">There are three primary methods for implementing Cascading Style Sheets (CSS) in web development: inline, internal (or embedded), and external. Each method has a different scope and use case.</p>
+    <a href="#project" class="btn btn-primary">Go to Project Section</a>
+  </div>
+  
+</div>
+
+
+
+<div class="card mb-3">
+  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy-tUTYRG8fHtJ3Sq8Pskj32rAtX2fel5bquBI6c5Y7FN7-9IfcG-0zKKu77z0oVEU6Jpbt86tNXOHtPS2WhgGc6nJ6d3UJKaBUM8Tdzff9haKOuFoskK661GO9-wNsRQ6H9jqKpPSGaii7jodORUi1qKIk4FolkVZHR6rR5ncDENerFTZSPQPqxp52SA/s1600/Type%20of%20CSS.png"  height="500px" width="300px" class="card-img-top" alt="not found">
+  <div class="card-body bg-warning">
+    <h5 class="card-title">Different between Inline,Internal and External Cascadig Style Sheet</h5>
+    
+  </div>
+</div>
+</div>
+             <div class="types">
+    <ol class="list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start bg-primary">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Inline CSS</div>
+      <p>Inline CSS involves applying styles directly to individual HTML elements using the style attribute. This method allows for specific styling of elements within the HTML document, overriding any external or internal styles.</p>
+
+    </div>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start bg-danger">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Internal or Embedded CSS:</div>
+<p>Internal or Embedded CSS is defined within the HTML document's style element. It applies styles to specified HTML elements. The CSS rule set should be within the HTML file in the head section, i.e. the CSS is embedded within the style tag inside the head section of the HTML file.<p>
+    </div>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start bg-success">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">External CSS</div>
+         <p>External CSS is the most commonly used form of CSS. It involves linking an external style sheet file to the HTML document. External CSS is ideal for larger projects with multiple HTML documents because it allows developers to maintain a consistent look and feel across multiple pages. Heres an example of external CSS:
+
+    </div>
+  </li>
+</ol>
+
+<div class="card">
+  <div class="card-body bg-warning">
+    <h5 class="card-title bg-danger">Cascading Style Sheet</Style></h5>
+    <p class="card-text">In the example above, the CSS code is stored in a separate file called “style.css.” The HTML code links to this file using the <link> tag in the head section. This is the recommended approach for larger projects because it allows developers to make changes to the CSS file without affecting the HTML code.</p>
+    <p class="card-text"><small class="text-body-secondary">The types of styling used in the project link is given below</small></p>
+  </div>
+  <img src="https://scontent.fcjb5-2.fna.fbcdn.net/v/t39.30808-6/484913955_1068616735287050_9031968112349535209_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=c7_YlfIsX4gQ7kNvwGw3lBK&_nc_oc=AdlCx3TWQxZQR94_jzYg8lgpGXGp4mJXzpCU1J1y0P8V4jDBkt2vehY3UTTzdzqU4sUCvE5L95NYzW02Az84qSq4&_nc_zt=23&_nc_ht=scontent.fcjb5-2.fna&_nc_gid=flPPptU_nJbgHbYW-H4bXQ&oh=00_AfjXYexhJgZVBRiANB0yaV9tNGQc4ilfuuSWzMsl18IZHA&oe=691CB253" width="100px" height="700px"  class="card-img-bottom" alt="...">
+</div>
+ <p >The Project link is given below</p>
+<a href="types of styling.html"><div class="d-grid gap-2 col-8 mx-auto py-2">
+ 
+  <button class="btn btn-success py-3 mx-5" type="button">Click here</button></a>
+ </div>
+
+    </div></div>
+    <div>
+
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="chessboard.html">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body bg-info">
+    <h1 style="font-size: 40px;" class="card-title bg-success">ii)Chessbord using css grid</h1>
+    <p class="card-text">Creating a chessboard in CSS involves using HTML and CSS to structure and style the board. We can achieve this by using a combination of nested div elements and applying appropriate CSS styles for the squares' color and layout.
+     </p>  <p>Below is an example of how you can create a simple 8x8 chessboard using CSS</p>
+
+    <a href="https://geeksretreat.wordpress.com/wp-content/uploads/2012/06/html5-canvas-chess-board.png?w=595&h=597" alt="img not found" width="300px"height="300px" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="table.html">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body bg-warning">
+    <h1 style="font-size: 40px;" class="card-title bg-danger">iii)Student mark list using Table</h1>
+    <p class="card-text">A student mark list can be effectively presented in HTML using a table structure. This allows for clear organization of student information and their respective subject scores.</p>
+
+     </p>  <p>Below is an example of student marklist using table</p>
+
+    <a href="https://image.slidesdocs.com/responsive-images/sheets/download-your-marksheet-instantly:-enhance-academic-records-with-ease-excel-template_1cd49a2126__max.jpg" alt="image not found" width="300px" height="300px" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+      <br>
+      <div class="container">
+        <div class="skills bg-info" id="skills">
+      <h1 style="font-size: 40px;background-color: lawngreen;text-align: center;">Skills Summary</h1>
+        <h1>Full Stack Developer:</h1>
+        <div class="container bg-success py-3">
+        <ul class="list-group">
+  <li class="list-group-item list-group-item-primary">Frontend: HTML, CSS, JavaScript, React.js, Bootstrap, VITE, Tailwind CSS  </li>
+  <li class="list-group-item list-group-item-secondary">Backend: Node.js, Express.js, Struts, Spring  </li>
+  <li class="list-group-item list-group-item-success">Databases: MySQL, MongoDB  </li>
+  <li class="list-group-item list-group-item-danger">Soft Skills: Analytical and Problem Solving Skills, Collaboration and Teamwork, Communication and 
+Presentation Skills, Time Management and Prioritization, Self-Motivation and Continuous Learning 
+</li>
+  <li class="list-group-item list-group-item-warning">Data Visualization: Visual Studio Code (Advanced) </li><br>
+  
+</ul></div></div></div>
+<div class="container-fluid bg-warning py-3">
+<h1>Social Media Signup/Login page:</h1>
+
+<div class="grid text-center" py-5 style="--bs-rows: 3; --bs-columns: 3;">
+  <div>Created Social Media signup page/login webpage using HTML,CSS and Bootstrap   </div></div>
+  <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+  <div class="g-start-2" style="grid-row: 2">Github Drive Link is given below</div><br>
+  <div class="g-start-3" style="grid-row: 3 "><a href="https://sathyanandhi.github.io/sign-up-page/"><button>Clich here</button></a></div></div>
+</div>
+
+<div style="background-color: yellowgreen;"class ="container-fluid py-3">
+<h1>Landing Page Layout:</h1>
+
+<div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+  <div>Created Home Furniture Shopping App webpage using HTML,CSS and Bootstrap   </div></div>
+  <div class="grid text-center" style="--bs-rows: 3; --bs-columns: 3;">
+  <div class="g-start-2" style="grid-row: 2">Github Drive Link is given below</div><br>
+  <div class="g-start-3" style="grid-row: 3"><a href="https://sathyanandhi.github.io/landing-page-layout/"><button>Clich here</button></a></div></div>
+</div>
+</div>
+
+
+
+          
+        
+      </div>
+       <div class="container-fluid col-12  px-5">
+        <div class="contact form" id="contact1"><h1 style="background-color:orangered;font-size: 40px;text-align: center;" id="contact">Contact Form </h1></div>
+        <!-- Scrollable modal -->
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  About Contact Form
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Contact form</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal- modal-dialog-scrollable">
+  <p style=" font-size:30px;background-color:gold; color:black;">An HTML contact form is a web form that collects user input, such as names, email addresses, messages, and phone numbers, for various purposes. This data is then sent to a specified destination, such as an email inbox or a form backend.
+For beginners, a basic contact form might include only a few fields like name and email field, while advanced forms often feature spam protection, email notifications, and integration with external tools. Whether it’s a simple contact form or one created using an online form builder, its purpose remains the same: to facilitate communication between users and website administrators.</p>
+  <h2>The Contact Form is given below</h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+
+  </div>
+<div class="container">
+  <form action="success.html">
+  <div class="col-12  px-5">
+    <form action="success.html">
+    <label for="validationDefault01" class="form-label">Name</label>
+    <input type="text" class="form-control" id="validationDefault01" placeholder="Enter your name" value="" required autocomplete="off">
+  </div>
+    <div class="col-12  px-5">
+    <label for="validationDefaultUsername" class="form-label">Email</label>
+    <div class="input-group">
+      <span class="input-group-text" id="inputGroupPrepend2">@</span>
+      <input type="email" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required autocomplete="off">
+    </div>
+  </div>
+
+  <div class="col-md-12 px-5 my-5">
+    <label for="validationDefault03" class="form-label">Message</label>
+    <input type="text" style="height: 100px;" class="form-control" placeholder="Type your message here" id="validationDefault03" required autocomplete="off">
+    </div>
+
+      <a href="success.html"><button style="margin-left: 90px; "></a>    Submit form</button>
+ 
+</form>
+ </div>
+
+<div class=" container -footer bg-info ">
+  <div id="footerimages">
+  <img src="Facebook-80x80.png">
+  <img src="Instagram-80x80.png">
+  <img src="LinkedIn-80x80.png">
+  <img src="WhatsApp-80x80.png">
+  <img src="TikTok-80x80.png">
+  <img src="Spotify-80x80.png">
+</div></div>
+
+
+
+<footer > 
+      <div class="container-fluid btn-warning py-5 my-5 mx-5" >
+  <div class="row">
+    <div class="col-sm-5 px-8 col-md-6">Contact Address<br>Sai Baba Colony<br>Coimbatore-642120<br>contact number:1234567897</div>
+    <div class="col-sm-5 px-6 offset-sm-2 col-md-6 offset-md-0"> ©2025 sathyanandhi.<br>All Rights Reserved. <br>www.sathya.com</div>
+  </div>
+  
+</div>
+     
+    </footer>
+<!-- <footer  style="text-align: center;background-color:yellow;">@2025copyright:sathyanandhi.com</footer>  -->
+</body>
+</html>
